@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ester Sánchez</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos.css" media="">  
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="animate.css">
+
+</head>
+<body>
+    <header class="cabecera">
+                <nav class="menu">
+                    <div id="logo" class="animate__animated animate__pulse animate__slow"><a href="index.html">ESTER SÁNCHEZ</a></div>
+                    <ul class="menuItems">
+                        <li id="proyectos" class="animate__animated animate__pulse animate__slow"><a href="proyectos.html">PROYECTOS</a></li>
+                        <li id="sobremi" class="animate__animated animate__pulse animate__slow"><a href="sobremi.html">SOBRE MÍ</a></li>
+                        <li id= "contacto" class="animate__animated animate__pulse animate__slow"><a href="contacto.html">CONTACTO</a></li>
+                    </ul>           
+                </nav>
+                   
+    </header>
+    <div id="contactoContainer">
+    
+        <div id="formulario" class="dosPartes">
+            <h2 class="titulito wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">Contacto</h2>
+            
+            <form id= "gridContainer" action="">
+               
+               <div id="gridContainerChildNombre" class="gridContainerChild wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">
+                    <label for="nombres">Nombre</label> 
+                    <input type="text" name="nombres" placeholder="Nombre" required>
+                </div>
+                
+                <div id="gridContainerChildApellidos" class="gridContainerChild wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">
+                    <label for="apellidos">Apellido</label>
+                    <input type="text" name="apellidos" placeholder="Apellido" required>
+                </div>
+
+                <div id="gridContainerChildEmail" class="gridContainerChild wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="bliblibli@bla.com" required>
+                </div>
+                    
+                <div id="gridContainerChildMensaje" class="gridContainerChild wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" rows="10" placeholder="Escribe tu mensaje" required> </textarea>
+                </div>
+
+                    <input id="gridContainerChildEnviar" class="gridContainerChild wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s" type="submit" name="enviar">
+                   
+
+                <p id="gridContainerChildCorreo"class=" correo wow animate__animated animate__fadeInUpBig"  data-wow-delay="0.2s">Si lo prefieres, escríbeme un  <a href="mailto:esthersanchez95@gmail.com">e-mail</a> </p>
+            </form>
+
+
+            
+            
+        </div>
+
+        <img id="fotoContacto" class="dosPartes wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">
+        
+    </div>
+
+    <footer> &copy Ester Sánchez Sánchez</footer>
+
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
