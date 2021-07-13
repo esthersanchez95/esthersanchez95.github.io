@@ -11,17 +11,58 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="animate.css">
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!-- CDN de Bootstrap del CSS -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> <!-- CDN de Bootstrap del JS -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> <!-- CDN de la librería de Jquery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> <!-- CDN de la librería de Popper  -->
 
 </head>
 <body>
     <header>
-                <nav class="menu">
-                    <div id="logo" class="animate__animated animate__pulse animate__slow"><a href="index.html">ESTER SÁNCHEZ</a></div>
-                    <ul class="menuItems">
-                        <li id="proyectos" class="animate__animated animate__pulse animate__slow"><a href="proyectos.html">PROYECTOS</a></li>
-                        <li id="sobremi" class="animate__animated animate__pulse animate__slow"><a href="sobremi.html">SOBRE MÍ</a></li>
-                        <li id= "contacto" class="animate__animated animate__pulse animate__slow"><a href="contacto.html">CONTACTO</a></li>
-                    </ul>           
+                <nav class="navbar fixed-top navbar-expand-lg">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">ESTER SÁNCHEZ</a> 
+                    <!-- <div id="logo" class="animate__animated animate__pulse animate__slow navbar-brand"><a href="index.html">ESTER SÁNCHEZ</a></div> -->
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                          
+                          <li class="nav-item">
+                            <a class="nav-link" href="proyectos.html">PROYECTOS</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="sobremi.html">SOBRE MÍ</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                          </li>
+
+
+                          <!-- <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          </li> -->
+                        </ul>
+
+
+
+
+
+
+                    <!-- <ul class="nav menuItems">
+                        <li id="proyectos" class="animate__animated animate__pulse animate__slow nav-item"><a class="nav-link"href="proyectos.html">PROYECTOS</a></li>
+                        <li id="sobremi" class="animate__animated animate__pulse animate__slow nav-item"><a class="nav-link"href="sobremi.html">SOBRE MÍ</a></li>
+                        <li id= "contacto" class="animate__animated animate__pulse animate__slow nav-item"><a class="nav-link"href="contacto.html">CONTACTO</a></li>
+                    </ul>  -->  
+                  </div>        
                 </nav>
                    
     </header>
@@ -40,16 +81,21 @@
           <span></span>
         </div>
    
-        <div id="textoIndex" class="wow animate__animated animate__fadeInUpBig" data-wow-delay="0.2s">
-            <h2 class="titulito"><strong>¡Hola!</strong></h2>
-           
-            <p>Mi nombre es Ester y soy una apasionada del diseño y su aplicación en el mundo digital.
-            <br>
-            Bienvenid@ a mi portfolio. Espero que te guste :) </p>
-       
-           
-            <a class="botonIndex" href="contacto.html">CONTACTO</a>
+        <div id="textoIndex" class="wow animate__animated animate__fadeInUpBig container" data-wow-delay="0.2s">
 
+            <div class="row">
+                <h2 class="titulito col center"><strong>¡Hola!</strong></h2> 
+            </div>
+
+            <div class="row">
+                <p class="col center">Mi nombre es Ester y soy una apasionada del diseño y su aplicación en el mundo digital.
+                <br>
+                Bienvenid@ a mi portfolio. Espero que te guste :) </p>
+            </div>
+       
+            <div class="row">
+                <a class="botonIndex col" href="contacto.html">CONTACTO</a>
+            </div>
         </div>
     </section>
          
