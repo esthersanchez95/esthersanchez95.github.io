@@ -36,14 +36,20 @@ li .nav-item {
 	
 }
 
-
+.nav-link{
+	width: max-content;
+}
 .nav-item a {
 	display: block;
 	text-align: center;
 	color: #E4E4E4;
 	text-decoration: none;
+}
 
-
+.navbar .navbar-toggler .icon-bar {
+    color: #E4E4E4 !important;
+    font-size:120%;
+    height: fit-content;
 }
 
 .navbar-brand{

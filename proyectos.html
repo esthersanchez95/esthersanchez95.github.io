@@ -21,45 +21,34 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> <!-- CDN de la librería de Jquery  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> <!-- CDN de la librería de Popper  -->
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Font awesome burger -->
+
 </head>
 <body>
     <header class="cabecera">
-                <nav class="navbar fixed-top navbar-expand-lg">
-                  <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">ESTER SÁNCHEZ</a> 
-                    <!-- <div id="logo" class="animate__animated animate__pulse animate__slow navbar-brand"><a href="index.html">ESTER SÁNCHEZ</a></div> -->
-                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+        <nav class="navbar fixed-top navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">ESTER SÁNCHEZ</a> 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon icon-bar fa fa-bars"></i></span>
+          </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                          
-                          <li class="nav-item active">
-                            <a class="nav-link" href="proyectos.html">PROYECTOS<span class="sr-only">(current)</span></a>
-                          </li>
+          <div class="collapse navbar-collapse" id="navlinks">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                                  
+                <li class="nav-item active">
+                    <a class="nav-link" href="proyectos.html">PROYECTOS<span class="sr-only">(current)</span></a>
+                </li>
 
-                          <li class="nav-item">
-                            <a class="nav-link" href="sobremi.html">SOBRE MÍ</a>
-                          </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobremi.html">SOBRE MÍ</a>
+                </li>
 
-                          <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">CONTACTO</a>
-                          </li>
-                        </ul>
-
-
-
-
-
-
-                    <!-- <ul class="nav menuItems">
-                        <li id="proyectos" class="animate__animated animate__pulse animate__slow nav-item"><a class="nav-link"href="proyectos.html">PROYECTOS</a></li>
-                        <li id="sobremi" class="animate__animated animate__pulse animate__slow nav-item"><a class="nav-link"href="sobremi.html">SOBRE MÍ</a></li>
-                        <li id= "contacto" class="animate__animated animate__pulse animate__slow nav-item"><a class="nav-link"href="contacto.html">CONTACTO</a></li>
-                    </ul>  -->  
-                  </div>        
-                </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+          </div>
+        </nav>
                    
     </header>
     
@@ -77,6 +66,9 @@
     <script>
         new WOW().init();
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     
     <footer> &copy Ester Sánchez Sánchez</footer>
