@@ -610,27 +610,19 @@ textarea {
 /* PROYECTO 1 --------------------*/
 .proyecto{
 	margin: 0;
-
-
 }
 
 .tituloProyecto{
 	margin-top: 4%;
 	padding: 10%;
 	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	font-size: 400%;
+	font-size: 350%;
 	font-weight: 600;
 	background-image: url(imagenes/desierto.jpg);
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
 	display: block;
-
 }
 
 /*sombra del titulo*/
@@ -680,7 +672,20 @@ textarea {
 
 @media screen and (max-width: 768px) {
     .parrafoProyecto {
-            padding: 5% 10% 5% 10%;
+        padding: 5% 10% 5% 10%;
+      }
+
+    .tituloProyecto {
+    	margin-top: 7%;
+    	padding-top: 15%;
+      }
+
+}
+
+@media screen and (max-width: 576px) {
+    .tituloProyecto {
+    	font-size: 200%;
+    	margin-top: 10%; 
       }
 
 }
