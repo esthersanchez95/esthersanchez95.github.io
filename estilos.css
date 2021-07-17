@@ -690,6 +690,38 @@ textarea {
 
 }
 
+
+
+/*ejemplo formulario con bs*/
+form{
+	background-color: #2f2422;
+	padding: 20% 20% 10% 20%;
+	height: 80vh;
+}
+
+.mb-3{
+	background-color: #2f2422;
+	color: white;
+}
+
+.btn-primary{
+	background-color: #E4E4E4;
+	color: #2f2422;
+}
+
+/*ejemplo tabla con bs*/
+.table{
+	background-color: #2f2422;
+	color: white;
+}
+
+.table thead th{
+	border-bottom:#63CCCA ;
+}
+
+th{
+	color: #63CCCA;
+}
 /*FOOTER*/
 
 footer {

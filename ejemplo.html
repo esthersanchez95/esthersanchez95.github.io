@@ -55,41 +55,58 @@
                    
     </header>
     
-    <section id="index">
-        <div class="background">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-   
-        <div id="textoIndex" class="wow animate__animated animate__fadeInUpBig container" data-wow-delay="0.2s">
-
-            <div class="row">
-                <h2 class="titulito col-12 center"><strong>¡Hola!</strong></h2> 
-            </div>
-
-            <div class="row">
-                <p class="col-12 center">Mi nombre es Ester y soy una apasionada del diseño y su aplicación en el mundo digital.
-                <br>
-                Bienvenid@ a mi portfolio. Espero que te guste :)</p>
-            </div>
-       
-            <div class="row">
-                <a class="botonIndex col-12" href="contacto.html">CONTACTO</a>
-            </div>
-        </div>
+    <section id="formularioejemplo">
+        
+   <!-- formulario con bs -->
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Bliblibli</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
     </section>
          
 
-    </div>
-
+   <!-- tabla con bs -->
+<div class="table-responsive">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Número</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido</th>
+      <th scope="col">Ciudad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Ester</td>
+      <td>Sánchez</td>
+      <td>Madrid</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Antonio</td>
+      <td>García</td>
+      <td>Sevilla</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>María</td>
+      <td>Martín</td>
+      <td>Barcelona</td>
+    </tr>
+  </tbody>
+</table>
+</div>
     <footer> &copy Ester Sánchez Sánchez</footer>
 
     <script src="wow.min.js"></script>
