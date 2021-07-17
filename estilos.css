@@ -250,7 +250,7 @@ a:hover{
 */
 
 #textoIndex{
-	padding: 20% 15% 15% 15%;
+	padding: 20% 15% 0% 15%;
 	line-height: 160%;
     z-index: 100;
     text-align: center;
