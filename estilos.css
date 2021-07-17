@@ -250,9 +250,8 @@ a:hover{
 */
 
 #textoIndex{
-	padding: 20% 20% 10% 20%;
+	padding: 20% 15% 15% 15%;
 	line-height: 160%;
-    height: 100vh;
     z-index: 100;
     text-align: center;
     
@@ -277,6 +276,23 @@ a:hover{
 	color: #2F2422;
 }
 
+
+/*media queries del index*/
+
+@media screen and (max-width: 750px) {
+	#textoIndex {
+            padding: 30% 5% 5% 5%;
+      }
+}
+
+@media screen and (max-width: 535px) {
+	#textoIndex {
+            padding: 30% 5% 5% 5%;
+
+            height: 25vh;
+      }
+  
+}
 
 
 /* SOBRE MI --------------------*/
@@ -687,7 +703,6 @@ textarea {
     	font-size: 200%;
     	margin-top: 10%; 
       }
-
 }
 
 
@@ -695,8 +710,8 @@ textarea {
 /*ejemplo formulario con bs*/
 form{
 	background-color: #2f2422;
-	padding: 20% 20% 10% 20%;
-	height: 80vh;
+	padding: 10% 20% 0% 20%;
+	height: 60vh;
 }
 
 .mb-3{
@@ -709,7 +724,17 @@ form{
 	color: #2f2422;
 }
 
+@media screen and (max-width: 800px) {
+    form {
+    	padding: 23% 20% 0% 20%;
+    	height: 60vh;
+      }
+}
+
+
+
 /*ejemplo tabla con bs*/
+
 .table{
 	background-color: #2f2422;
 	color: white;
@@ -721,6 +746,13 @@ form{
 
 th{
 	color: #63CCCA;
+}
+
+
+/*ejemplo carrusel con bs*/
+#carouselExampleControls{
+	width: 90%;
+	margin: 5%;
 }
 
 
